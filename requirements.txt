@@ -1,0 +1,6 @@
+tensorflow
+numpy
+os
+urllib.request
+flask
+werkzeug
