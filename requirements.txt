@@ -1,5 +1,5 @@
-tensorflow-cpu
-numpy
-urllib3
-flask
-werkzeug
+tensorflow-cpu==2.8.0
+numpy==1.22.3
+urllib3==1.26.9
+flask==2.0.3
+werkzeug==2.0.3
