@@ -23,7 +23,7 @@ def extension(filename):
 def model(filename):
     model = tf.keras.models.load_model("model_sota.h5")
     src_img = os.path.join(upload_folder, filename)
-    img = image.load_img(src_img, target_size=(150, 150))
+    img = image.load_img(src_img, target_size=(480, 640))
     img = image.img_to_array(img)
     img = np.expand_dims(img, axis=0)
     img = np.vstack([img])
